@@ -232,7 +232,7 @@ nav {
     text-align: center;
     height: 32px;
     line-height: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 #grey-box-title {
@@ -263,15 +263,22 @@ nav {
     font-size: 17px;
 }
 
+#padding {
+    padding-bottom: 75px;
+}
+
+
 /* regole footer */
 
 /* regole top footer */
 #top-footer {
+    padding-top: 70px;
     background-color: rgba(35,39,42,255);
+    border-bottom: 1px solid rgba(202,202,202,255);
     /* DEBUG */
     min-height: 470px;
-    border-bottom: 1px solid rgba(202,202,202,255);
-    padding-top: 10px;
+    
+    
 }
 
 #flex-container-top-footer {
@@ -280,16 +287,57 @@ nav {
     display: flex;
     /* DEBUG */
     min-height: 430px;
-    border: dashed;
+    
 
 }
 
 #col-footer-left {
     width: 30%;
-    /* DEBUG */
+    /* DEBUG 
     background-color: rgba(240,128,128,255);
-    border-right: 3px dashed black;
+    border-right: 3px dashed black; */
 }
+
+#col-footer-left h2 {
+    color: rgba(114,138,219,255);
+    padding-right: 90px;
+    font-size: 30px;
+}
+
+#lingua {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+#lingua img {
+    height: 20px;
+}
+
+#lingua span {
+    color: white;
+    font-size: 15px;
+}
+
+#arrow-down {
+    padding-bottom: 5px;
+}
+
+#icons-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.social-icons {
+    padding-top: 20px;
+}
+
+
+
+
+
 
 #col-footer-right {
     width: 70%;
@@ -337,6 +385,3 @@ nav {
     border: 2px dashed black;
 }
 
-#padding {
-    padding-bottom: 75px;
-}
