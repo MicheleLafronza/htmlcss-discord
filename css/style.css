@@ -150,15 +150,15 @@ nav {
 /* regole main */
 .white-section {
     padding-top: 30px;
-    padding-bottom: 30px;
-    /* DEBUG */
+    padding-bottom: 50px;
     background-color: white;
-    min-height: 400px;
+    /* DEBUG 
+    min-height: 400px; */
 }
 
 .grey-section {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     background-color: rgba(211,211,211,255);
     /* DEBUG 
     min-height: 400px; */
