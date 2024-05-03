@@ -10,9 +10,11 @@ a {
     text-decoration: none;
     color: white;
 }
+
 /* regole header */
 header {
     width: 100%;
+    height: 600px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     padding-top: 20px;
@@ -41,11 +43,52 @@ nav {
 #banner-box {
     width: 40%;
     margin: auto;
-    /* DEBUG */
+    /* DEBUG 
     background-color: rgba(238,130,238,255);
     min-height: 250px;
     border-style: dashed;
-    border-width: 2px;
+    border-width: 2px; */
+}
+
+#banner-title {
+    padding-top: 20px;
+    padding-bottom: 45px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+#banner-paragraph {
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+.flex-container-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.button-white {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    line-height: 45px;
+    padding: 0px 15px;
+    border-radius: 50px;
+    font-size: 17px;
+}
+
+.button-black {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    line-height: 45px;
+    padding: 0px 15px;
+    border-radius: 50px;
+    font-size: 17px;
 }
 
 /* regole nav */
@@ -79,7 +122,6 @@ nav {
     width: 20%;
     text-align: right;
     margin-right: 10px;
-    /* DEBUG */
     font-size: 20px;
 }
 
@@ -90,11 +132,11 @@ nav {
 
 #link-nav li {
     display: inline;
-    font-size: 20px;
+    font-size: 15px;
     margin-right: 30px;
 }
 
-.button-white {
+.button-white-small {
     display: inline-block;
     background-color: white;
     color: black;
