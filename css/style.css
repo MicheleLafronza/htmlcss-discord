@@ -159,17 +159,17 @@ nav {
 .grey-section {
     padding-top: 30px;
     padding-bottom: 30px;
-    /* DEBUG */
     background-color: rgba(211,211,211,255);
-    min-height: 400px;
+    /* DEBUG 
+    min-height: 400px; */
 
 }
 
 .grey-section-big {
     padding-top: 30px;
     padding-bottom: 30px;
-    /* DEBUG */
     background-color: rgba(211,211,211,255);
+    /* DEBUG */
     min-height: 800px;
 
 }
@@ -177,27 +177,41 @@ nav {
 .flex-container-main1 {
     width: 60%;
     margin: 0px auto;
+    padding-top: 100px;
     display: flex;
-    /* DEBUG */
-    min-height: 360px;
+    /* DEBUG 
+    min-height: 360px; */
 
 }
 
 .box-big {
     width: 60%;
-    /* DEBUG */
+    /* DEBUG 
     background-color: rgba(30,144,255,255);
     border-style: dashed;
-    border-width: 2px;
+    border-width: 2px; */
 }
 
 
 .box-small {
     width: 40%;
-    /* DEBUG */
+    padding-left: 50px;
+    padding-top: 32px;
+    padding-right: 115px;
+    /* DEBUG 
     background-color: rgba(255,192,203,255);
     border-style: dashed;
-    border-width: 2px;
+    border-width: 2px; */
+}
+
+.box-small-title {
+    font-size: 35px;
+    
+}
+
+.box-small-paragraph {
+    padding-top: 20px;
+    line-height: 25px;
 }
 
 #green-box {
