@@ -166,11 +166,11 @@ nav {
 }
 
 .grey-section-big {
-    padding-top: 30px;
+    padding-top: 100px;
     padding-bottom: 30px;
     background-color: rgba(211,211,211,255);
-    /* DEBUG */
-    min-height: 800px;
+    /* DEBUG 
+    min-height: 800px; */
 
 }
 
@@ -214,14 +214,53 @@ nav {
     line-height: 25px;
 }
 
-#green-box {
+#big-grey-box {
     margin: auto;
-    background-color: rgba(34,139,34,255);
     width: 60%;
-    /* DEBUG */
+    /* DEBUG 
     border-style: dashed;
     border-width: 2px;
     min-height: 740px;
+    background-color: rgba(34,139,34,255); */
+}
+
+#big-grey-box h3 {
+    margin: auto;
+    width: 30%;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    text-align: center;
+    height: 32px;
+    line-height: 50px;
+    padding-bottom: 50px;
+}
+
+#grey-box-title {
+    font-size: 35px;
+    padding-top: 32px;
+    text-align: center;
+}
+
+#grey-box-paragraph {
+    text-align: center;
+    padding-left: 196px;
+    padding-right: 196px;
+}
+
+#img4 {
+    padding-top: 20px;
+    padding-left: 120px;
+}
+
+.button-blue {
+    margin: auto;
+    display: inline-block;
+    background-color: rgba(142,161,225,255);
+    color: white;
+    line-height: 45px;
+    padding: 0px 15px;
+    border-radius: 50px;
+    font-size: 17px;
 }
 
 /* regole footer */
@@ -296,4 +335,8 @@ nav {
     /* DEBUG */
     background-color: rgba(255,182,193,255);
     border: 2px dashed black;
+}
+
+#padding {
+    padding-bottom: 75px;
 }
